@@ -14,7 +14,7 @@ storiesOf('IMap', module)
   .add('default', () => ({
     components: { IMap },
     template: `
-      <div style="width: 800px;height: 600px;">
+      <div class="container">
         <i-map
           :lat="${lat}"
           :lng="${lng}">
@@ -24,7 +24,7 @@ storiesOf('IMap', module)
   .add('with draggable marker', () => ({
     components: { IMap },
     template: `
-      <div style="width: 800px;height: 600px;">
+      <div class="container">
         <i-map
           :lat="${lat}"
           :lng="${lng}"
@@ -35,7 +35,7 @@ storiesOf('IMap', module)
   .add('with searchable input', () => ({
     components: { IMap },
     template: `
-      <div style="width: 800px;height: 600px;">
+      <div class="container">
         <i-map
           :lat="${lat}"
           :lng="${lng}"
@@ -46,7 +46,7 @@ storiesOf('IMap', module)
   .add('control latlng to specific decimal point (5)', () => ({
     components: { IMap },
     template: `
-      <div style="width: 800px;height: 600px;">
+      <div class="container">
         <i-map
           :lat="${lat}"
           :lng="${lng}"
@@ -71,8 +71,8 @@ storiesOf('IMap', module)
       }
     },
     template: `
-      <div style="width: 800px;height: 600px;">
-        <div style="text-align: center">
+      <div class="container">
+        <div>
           <label>
             show map control
             <input type="checkbox" v-model="controls.hasMapTypeControl" @change="refresh">
@@ -90,7 +90,7 @@ storiesOf('IMap', module)
             <input type="checkbox" v-model="controls.hasZoomControl" @change="refresh">
           </label>
         </div>
-        <div style="text-align: center">
+        <div>
           <label>
             use rotate control
             <input type="checkbox" v-model="controls.hasRotateControl" @change="refresh">
