@@ -9,7 +9,7 @@ module.exports = {
   //   filename: 'build.js'
   // },
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     publicPath: '',
     filename: 'vue-google-map.js',
     library: 'VueGoogleMap',
