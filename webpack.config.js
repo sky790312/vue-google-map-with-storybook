@@ -10,7 +10,7 @@ module.exports = {
   // },
   output: {
     path: path.resolve(__dirname, './dist'),
-    publicPath: '',
+    publicPath: '/dist/',
     filename: 'vue-google-map.js',
     library: 'VueGoogleMap',
     libraryTarget: 'umd',
