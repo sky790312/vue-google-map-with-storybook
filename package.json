@@ -111,7 +111,6 @@
     "component",
     "storybook"
   ],
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sky790312/vue-google-map-with-storybook/issues"
   },
