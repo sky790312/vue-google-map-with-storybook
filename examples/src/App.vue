@@ -3,21 +3,26 @@
     <!-- <img src="./assets/logo.png"> -->
     <!-- <router-view></router-view> -->
     <div class="map-container">
-      <i-map
+      <vue-google-map
         :lat="-34.4"
         :lng="150.644">
-      </i-map>
+      </vue-google-map>
+      <!-- <i-map
+        :lat="-34.4"
+        :lng="150.644">
+      </i-map> -->
     </div>
   </div>
 </template>
 
 <script>
-import IMap from './components/IMap'
+// import IMap from './components/IMap'
+import VueGoogleMap from '../../src'
 export default {
   name: 'app',
-
   components: {
-    IMap
+    // IMap
+    VueGoogleMap
   }
 }
 </script>

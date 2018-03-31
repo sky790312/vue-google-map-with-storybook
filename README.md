@@ -1,26 +1,18 @@
-# vue-google-map with storybook
+# vue-google-map
 
-> project init by vue-cli, check example in storybook
-
-You must have to use google account and gcp (google cloud platform) project.
-The IMap component use the relative google map api as following:
-“Google Maps JavaScript API” , “Google Maps Geocoding API” , “Google Places API Web Service”
-Active these api in your gcp project first.
+> Simple google map vue component with storybook
 
 ## Build Setup
 
 ``` bash
-
 # install dependencies
-yarn
+npm install
 
 # serve with hot reload at localhost:8080
-yarn run dev
+npm run dev
 
-# storybook serve with hot reload at localhost:6006
-yarn run storybook
-
+# build for production with minification
+npm run build
 ```
 
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).

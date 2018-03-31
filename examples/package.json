@@ -1,6 +1,6 @@
 {
   "name": "vue-google-map-with-storybook",
-  "version": "1.2.0",
+  "version": "1.0.1",
   "description": "Simple google map vue component with storybook",
   "author": "kevin.hu",
   "scripts": {
@@ -96,9 +96,7 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": "dist/VueGoogleMap.js",
-  "private": false,
-  "license": "MIT",
+  "main": ".eslintrc.js",
   "directories": {
     "test": "test"
   },
@@ -106,19 +104,13 @@
     "type": "git",
     "url": "git+https://github.com/sky790312/vue-google-map-with-storybook.git"
   },
-  "files": [
-    "dist",
-    "src"
-  ],
   "keywords": [
     "vue",
     "google",
     "map",
-    "google-map",
     "component",
     "storybook"
   ],
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sky790312/vue-google-map-with-storybook/issues"
   },

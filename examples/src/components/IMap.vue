@@ -28,6 +28,7 @@
 
 <script>
 export default {
+  name: 'IMap',
   props: {
     lat: {
       type: Number,
