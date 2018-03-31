@@ -1,6 +1,6 @@
 {
   "name": "vue-google-map-with-storybook",
-  "version": "1.2.4",
+  "version": "1.2.5",
   "description": "Simple google map vue component with storybook",
   "author": "kevin.hu",
   "scripts": {
